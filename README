@@ -1,0 +1,53 @@
+README for MYL, a simple C-like language comipler and translator.
+
+By Eric Wan. Sep. 2019
+=====================================================================
+
+Requirements to build the program:
+   gcc
+   g++
+   bison 3.0
+
+Just run 'make' under the directory. Tested with Linux and MacOS.
+
+Supported data types:
+    integer
+    float
+    string
+
+Supported program control:
+    if/else
+    for
+    while
+    do/while
+    switch/case
+
+Supported internal functions:
+	dos
+	join
+	time
+	acos
+	asin
+	atan
+	ceil
+	cos
+	cosh
+	exp
+	fabs
+	floor
+	fmod
+	int
+	loge
+	log10
+	pow
+	random
+	sin
+	sinh
+	sqrt
+	srandom
+	tan
+	tanh
+	print
+
+Please find the example 'in.myl'.
+

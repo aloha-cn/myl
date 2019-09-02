@@ -1,0 +1,77 @@
+integer i,c,d;
+float a,b;
+string s1, s2, s3;
+
+a=0;
+b=3445.2563;
+c=2147483647;
+d=log10(c);
+a--;
+c++;
+print("a=",a);
+a+=2;
+a+=0;
+b-=0.2;
+d*=2;
+c/=4;
+print("a=",a);
+print("b=",b);
+print("c=",c);
+print("d=",d);
+
+print("");
+print("Primes less than 100:");
+
+integer j;
+for (i = 2; i <= 100; i++) {
+        for (j = 2; j < i; j++) {
+                if (i % j == 0)
+                        break;
+        }
+        if (j==i) {
+                print(i);
+        }
+}
+
+print("");
+print("while loop:");
+j = 3;
+while (j--) {
+        print("hello");
+}
+
+print("");
+print("do/while loop:");
+j = 3;
+i = 2;
+do {
+        i = i * i;
+} while(j--);
+
+print("i=", i);
+
+print("");
+print("switch/case:");
+i = 3;
+switch (i) {
+case 1:
+        print("Case 1");
+        break;
+case 2:
+        print("Case 2");
+        break;
+case 3:
+        print("Case 3");
+        break;
+default:
+        print("default");
+        break;
+}
+
+print("");
+print("string test:");
+s1 = "aaa";
+s2 = "bbb";
+s3 = "ccc";
+print(join(s1, s2, s3));
+
